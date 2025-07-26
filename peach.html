@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>sweet&sour pomodoro</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="peach-body">
+    <audio id="audioBtnClick" src="audios/button-click-289742.mp3" preload="auto"></audio>
+    <audio id="audioTimer" src="audios/timer-terminer-342934.mp3" preload="auto"></audio>
+    <div class="strawberry-div">
+        <div class="time-menu">
+            <button id="play-btn" title="Play"><img src="images/play.png" loading="lazy"></button>
+            <button id="pause-btn" title="Pause" onclick="pause()"><img src="images/pause.png" loading="lazy"></button>
+        </div>
+        <div class="peach-img">
+            <p id="timer">01:00:00</p>
+            <img src="images/peach.png" alt="strawberry-pixel" id="peachImg">
+        </div>
+        <a href="index.html" id="menu-btn" onclick="btnClick(event, this)"> MAIN MENU </a>
+    </div>
+</body>
+<script src="peachTimer.js"></script>
+<script src="btnClick.js"></script>
+</html>

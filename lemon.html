@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>sweet&sour pomodoro</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="lemon-body">
+    <audio id="audioBtnClick" src="audios/button-click-289742.mp3" preload="auto"></audio>
+    <audio id="audioTimer" src="audios/timer-terminer-342934.mp3" preload="auto"></audio>
+    <div class="strawberry-div">
+        <div class="time-menu">
+            <button id="play-btn" title="Play"><img src="images/play.png" loading="lazy"></button>
+            <button id="pause-btn" title="Pause" onclick="pause()"><img src="images/pause.png" loading="lazy"></button>
+        </div>
+        <div class="lemon-img">
+            <p id="timer">03:00:00</p>
+            <img src="images/lime.png" alt="strawberry-pixel" id="lemonImg">
+        </div>
+        <a href="index.html" id="menu-btn" onclick="btnClick(event, this)"> MAIN MENU </a>
+    </div>
+</body>
+<script src="lemonTimer.js"></script>
+<script src="btnClick.js"></script>
+</html>

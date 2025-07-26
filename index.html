@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>sweet&sour pomodoro</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="menu-body">
+    <div class="menu-div">
+        <p class="menu-title"> choose your timer <img src="images/heart.png" alt="pixel_heart" id="pixelHeart"> </p>
+        <div class="time-btns">
+            <ul>
+                <audio id="audioBtnClick" src="audios/button-click-289742.mp3" preload="auto"></audio>
+                <li> <a href="strawberry.html" class="duration-btn" onclick="btnClick(event, this)"> 25 mins </a> </li>
+                <li> <a href="peach.html" class="duration-btn" onclick="btnClick(event, this)"> 1 hour </a> </li>
+                <li> <a href="lemon.html" class="duration-btn" onclick="btnClick(event, this)"> 3 hours </a> </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="btnClick.js"></script>
+</html>
