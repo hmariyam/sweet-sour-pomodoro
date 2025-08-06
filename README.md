@@ -6,7 +6,7 @@ a desktop fruit-themed pomodoro app that helps students focus to study for their
 - ElectronJS (software to create desktop apps)
 
 # installation instructions
-- install the application straight from the installer folder in this repository
+- install the application straight from the drive link in the repository
 
 # author
 - me
